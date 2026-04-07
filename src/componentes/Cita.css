@@ -27,7 +27,6 @@
 
 .button.eliminar,
 .button.eliminar:hover {
-  background-color: #c10059;
-  color: white;
+  color: rgb(112, 103, 103);
   margin-top: 2rem;
 }
