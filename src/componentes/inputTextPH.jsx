@@ -1,16 +1,15 @@
-
-const inputTextPH = ({ label, nom, placeholder }) => {
-  return (
-    <>
-      <label>{label}</label>
-      <input 
-        type="text" 
-        nom={nom} 
-        className="u-full-width" 
-        placeholder={placeholder} 
-      />
-    </>
-  );
-};
-
-export default inputTextPH;
+function InputTextPH({ label, placeholder, valor, cambio }) {
+    return (
+      <div>
+        <label>{label}</label>
+        <input
+          type="text"
+          className="u-full-width"
+          placeholder={placeholder}
+          value={valor}
+          onChange={cambio}
+        />
+      </div>
+    );
+}
+export default InputTextPH;
